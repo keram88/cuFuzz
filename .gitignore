@@ -1,0 +1,26 @@
+# Sample output data (too large for git, provided separately)
+sample-out/
+
+# Build artifacts
+*.o
+*.out
+*.so
+*.a
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
