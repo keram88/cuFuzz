@@ -52,10 +52,10 @@ AFL_SAN_NO_INST=1 ./../../Tools/AFLplusplus/afl-clang-fast -DSAN_MODE_ASAN -O2 w
 echo "=== Step 3: Setting up NVBit ==="
 cd ../../
 mkdir -p Tools/NVBit
-wget -q https://github.com/NVlabs/NVBit/releases/download/v1.7.5/nvbit-Linux-x86_64-1.7.5.tar.bz2
-tar -xvf nvbit-Linux-x86_64-1.7.5.tar.bz2 
+wget -q https://github.com/NVlabs/NVBit/releases/download/v1.8/nvbit-Linux-x86_64-1.8.tar.bz2
+tar -xvf nvbit-Linux-x86_64-1.8.tar.bz2 
 mv nvbit_release_x86_64/* Tools/NVBit/
-rm -rf nvbit_release_x86_64 nvbit-Linux-x86_64-1.7.5.tar.bz2
+rm -rf nvbit_release_x86_64 nvbit-Linux-x86_64-1.8.tar.bz2
 
 # Building our NVBit coverage tool
 echo "=== Step 4: Building NVBit Coverage Tool ==="
